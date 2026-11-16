@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
+
+# Tests
+tests/
+
+# Generated outputs
+output/
+test_output/
+preprocessing_example_results/
+examples/output/
+examples/frequency_visualizations/
+
+# Measurement data
+data/
+examples/*.csv
+
+# Duplicate packaged library
+src/i24_emg.zip
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Old documentation
+readme.txt
